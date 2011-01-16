@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #EDEDED;
+	background-image:url(../images/bg.jpg);
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	/*font-family:"新細明體","細明體", sans-serif;*/
+}
+a{
+	font-size:12px;
+	color:#FF5300;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a.top{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover.top{
+	color:#333333;
+	text-decoration:none;
+}
+a.mydira{
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+a:hover.mydira{
+	color:#333333;
+	text-decoration:underline;
+}
+#WAPPER{
+	width:955px;
+	margin-top:0;
+	margin-left:-475px;
+	left:50%;
+	position:absolute;
+}
+#WAPPER .MainLogo{
+	width:185px;
+	height:50px;
+	text-indent:-9999px;
+	background:url(../images/logo_amigo.gif) no-repeat 0 10px;
+}
+#WAPPER #MENU{
+	position:absolute;
+	top: 50px;
+	left: 0px;
+}
+#WAPPER .MENUBar{
+	background:#404040;
+	display:block;
+	width:955px;
+	height:25px;
+}
+#WAPPER .pathDir{
+	display:block;
+	padding-left:20px;
+	line-height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+#WAPPER .pathDir a{
+	color:#666666;
+}
+/*----------------------------------------------------------------------------------------下拉式選單*/
+/* 整體設置*/
+.navigation {
+    margin:0;
+    padding:0;
+    width:955px;
+    list-style-type:none;
+    font:12px Arial;
+    }
+.navigation li {
+    float:left;
+    padding:0;
+    margin:0 10px;
+    _margin:0 2px 0 0;
+    width:100px;
+    }
+/* 設置選單區塊*/
+.navigation li dl {
+    width:120px;/*ie6*/
+    margin:0;
+    padding:0;
+    background-color:#404040;
+	text-align:center;
+    /*border:solid 2px #666;*/
+    }
+.navigation li dt a , .navigation li dd a{ display:block;}
+/* 設置主選單dt */
+.navigation li dt {
+    margin:0;
+    padding: 5px;
+    text-align:center;
+    background-color:#404040;
+    font-size: 12px;
+	font-weight:normal;
+    height:15px;
+    overflow:hidden;
+    }
+.navigation li dt a ,.navigation  li dt a:visited {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    }
+/* 設置子選單dd */
+.navigation li dd {
+    margin:0;
+    padding:0;
+    color: #fff;
+    background-color:#404040;
+    /*border-bottom:dotted 1px #666;*/
+    }
+.navigation li dd.last {
+    border-bottom:0;
+    }
+.navigation li dd a, .navigation  li dd a:visited {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:4px 5px;
+    }
+/*隱藏子選單*/
+.navigation li dd { display:none;}
+/* 滑鼠滑入顯示子選單 */
+.navigation li:hover dd, .navigation li a:hover dd { display:block;}
+/*ie6 hack*/
+.navigation li:hover,.navigation li a:hover { border:0;}
+.navigation table { border-collapse:collapse;
+    padding:0;
+    text-align:left;
+    }
+/*----------------------------------------------------------------------------------------下拉式選單 end*/
+#WAPPER #SITEINFO{
+	text-align:center;
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#333333;
+	line-height:35px;
+}
+.clearfloat { /* 這個類別應該放置於 Div 或 Break 元素上，而且應該是完整包含浮動的容器關閉前的最後一個元素 */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+.hr3{
+	clear:both;
+	height:3px;
+}
+.hr15{
+	clear:both;
+	height:15px;
+}
+.hr175{
+	clear:both;
+	height:175px;
+}
+.lineTop{
+	clear:both;
+	width:100px;
+	height:15px;
+	background-image:url(../images/icon_top.gif);
+	background-position:800px center;
+	background-repeat:no-repeat;
+	padding-left:800px;
+	border-bottom:1px dashed #999999;
+}
+.lineTop2{
+	clear:both;
+	width:35px;
+	height:15px;
+	padding-left:600px;
+	border-bottom:1px dashed #999999;
+}
+.lineTop3{
+	clear:both;
+	width:35px;
+	height:15px;
+	padding-left:600px;
+}
+.lineTop4{
+	clear:both;
+	width:35px;
+	height:15px;
+	padding-left:860px;
+	border-bottom:1px dashed #999999;
+}
+.lineTop5{
+	clear:both;
+	width:35px;
+	height:15px;
+	padding-left:860px;
+}
+.dir{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}

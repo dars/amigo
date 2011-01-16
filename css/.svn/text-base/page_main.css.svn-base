@@ -1,0 +1,973 @@
+@charset "utf-8";
+/* CSS Document */
+
+a.MenuSchool{
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	text-decoration:none;
+}
+a:hover.MenuSchool{
+	color:#FF5300;
+	font-weight:normal;
+	text-decoration:none;
+}
+a.Btn{
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+a:hover.Btn{
+	color:#333333;
+	text-decoration:none;
+}
+
+#WAPPER .BoxAbout{
+	width:900px;
+	height:478px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0;
+	background-color:#FFFFFF;
+	background-image:url(../images/bg_about.jpg);
+	background-position:595px 0;
+	background-repeat:no-repeat;
+}
+#WAPPER .BoxContact{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0;
+	background-color:#FFFFFF;
+}
+#WAPPER .titleMain{
+	padding-top:35px;
+	padding-left:50px;
+}
+#WAPPER .Box01{
+	width:270px;
+	padding-left:50px;
+	margin-right:15px;
+	float:left;
+}
+#WAPPER .Box02{
+	width:270px;
+	float:left
+}
+#WAPPER .topicMain{
+	font-size:12px;
+	font-weight:bold;
+	color:#FF5300;
+	padding:5px 0;
+	line-height:18px;
+}
+#WAPPER .textBox{
+	font-size:12px;
+	color:#333333;
+	line-height:18px;
+}
+#WAPPER .Map{
+	width:510px;
+	height:390px;
+	padding-left:50px;
+	padding-bottom:25px;
+	margin-right:15px;
+	background-image:url(../images/map.gif);
+	background-position:35px top;
+	background-repeat:no-repeat;
+	float:left;
+}
+#WAPPER .ContBox{
+	width:325px;
+	margin-top:35px;
+	float:left;
+}
+#WAPPER .ContBox li{
+	display:block;
+	line-height:30px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#WAPPER .ContBox li span{
+	font-weight:bold;
+}
+#WAPPER #MAPPOINT{
+	position:absolute;
+	left: 380px;
+	top: 230px;
+}
+/*moreinfo*/
+#WAPPER .topicMoreInfo{
+	font-size:12px;
+	font-weight:bold;
+	color:#FF5300;
+	padding-top:5px;
+	padding-left:35px;
+	line-height:35px;
+	float:left;
+}
+.mydir{
+	position:absolute;
+	width:800px;
+	height:26px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	padding-top:10px;
+	padding-left:15px;
+	line-height:21px;
+	float:left;
+	left: 25px;
+	top: 70px;
+}
+#WAPPER .topicMoreInfo2{
+	position:absolute;
+	width:270px;
+	height:26px;
+	background-image: url(../images/bar_297x26.gif);
+	background-position:right 5px;
+	background-repeat:no-repeat;
+	font-size:12px;
+	font-weight:normal;
+	color:#FFFFFF;
+	padding-top:10px;
+	padding-left:305px;
+	line-height:21px;
+	float:left;
+	left: 318px;
+	top: 115px;
+}
+#WAPPER .topicMoreInfo2 a{
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#WAPPER .topicMoreInfo2 a:hover{
+	color:#333333;
+	text-decoration:none;
+}
+#WAPPER .menuSchool{
+	width:890px;
+	height:25px;
+	line-height:25px;
+	background-color:#FFEADF;
+	padding-left:10px;
+}
+#WAPPER .menuSchool li{
+	display:block;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:12px;
+	float:left;
+}
+#WAPPER .SchoolBoxIED{
+	position:absolute;
+	width:800px;
+	padding:15px 50px;
+	top:200px;
+	border-bottom:#999999 1px dashed;
+}
+#WAPPER .SchoolBox{
+	width:800px;
+	padding:15px 50px;
+}
+#WAPPER .SchoolBoxIED .LogoImg, #WAPPER .SchoolBox .LogoImg{
+	width:160px;
+	margin-right:15px;
+	font-size:12px;
+	text-align:center;
+	float:left;
+}
+#WAPPER .CoursTitle01, #WAPPER .CoursTitle02, #WAPPER .CoursTitle03, #WAPPER .CoursTitle04, #WAPPER .CoursTitle05, #WAPPER .CoursTitle06, #WAPPER .CoursTitle07{
+	width:620px;
+	height:15px;
+	font-size:15px;
+	line-height:15px;
+	margin-left:175px;
+	background-position:25px;
+	background-repeat:no-repeat;
+}
+#WAPPER .CoursTitle01{
+	color:#D4145A;
+	background-image:url(../images/icon_red.gif);
+}
+#WAPPER .CoursTitle02{
+	color:#F7931E;
+	background-image:url(../images/icon_orange.gif);
+}
+#WAPPER .CoursTitle03{
+	color:#F9C623;
+	background-image:url(../images/icon_yellow.gif);
+}
+#WAPPER .CoursTitle04{
+	color:#8CC63F;
+	background-image:url(../images/icon_green.gif);
+}
+#WAPPER .CoursTitle05{
+	color:#0071BC;
+	background-image:url(../images/icon_blue.gif);
+}
+#WAPPER .CoursTitle06{
+	color:#2E3192;
+	background-image:url(../images/icon_darkblue.gif);
+}
+#WAPPER .CoursTitle07{
+	color:#93278F;
+	background-image:url(../images/icon_p.gif);
+}
+.CoursT01{
+	margin-left:25px;
+}
+.CoursT02{
+	font-size:12px;
+	font-weight:normal;
+}
+#WAPPER .List{
+	width:580px;
+	margin-left:210px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	color:#333333;
+	line-height:18px;
+}
+#WAPPER .CourClassBox{
+	width:430px;
+	padding-left:35px;
+	margin-right:35px;
+	float:left;
+}
+#WAPPER .CourClassBox .Country{
+	display:block;
+	width:16px;
+	height:25px;
+	margin-right:9px;
+	padding-top:5px;
+	float:left;
+}
+#WAPPER .CourClassBox .Country2{
+	display:block;
+	width:16px;
+	height:25px;
+	margin-right:9px;
+	padding-left:2px;
+	padding-top:5px;
+	float:left;
+}
+#WAPPER .CourClassBox .Country3{
+	display:block;
+	width:395px;
+	height:25px;
+	padding-top:5px;
+	float:left;
+}
+#WAPPER .CourClassBox .CourClass{
+	display:block;
+	width:370px;
+	line-height:30px;
+	float:left;
+}
+.RedLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#D4145A;
+}
+.RedSmall{
+	font-size:15px;
+	color:#D4145A;
+}
+.OrangeLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#F7931E;
+}
+.OrangeSmall{
+	font-size:15px;
+	color:#F7931E;
+}
+.YellowLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#F9C623;
+}
+.YellowSmall{
+	font-size:15px;
+	color:#F9C623;
+}
+.GreenLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#8CC63F;
+}
+.GreenSmall{
+	font-size:15px;
+	color:#8CC63F;
+}
+.BlueLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#0071BC;
+}
+.BlueSmall{
+	font-size:15px;
+	color:#0071BC;
+}
+.DarkblueLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#2E3192;
+}
+.DarkblueSmall{
+	font-size:15px;
+	color:#2E3192;
+}
+.PurpleLarge{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	color:#93278F;
+}
+.PurpleSmall{
+	font-size:15px;
+	color:#93278F;
+}
+#WAPPER .Others{
+	width:300px;
+	background-color:#EFEFEF;
+	padding:15px 25px;
+	float:left;
+	font-size:12px;
+	color:#333333;
+	line-height:30px;
+}
+#WAPPER .BtnReset{
+	padding-left:35px;
+	float:left;
+}
+#WAPPER .BtnSumit{
+	padding-left:5px;
+	float:left;
+}
+/*留學服務*/
+#WAPPER #Banner{
+	width:955px;
+	height:150px;
+	margin-top:0;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER .studyCountry{
+	width:765px;
+	background:#EFEBE6;
+	padding:0 12px 0 38px;
+	float:left;
+}
+#WAPPER .Flag{
+	width:20px;
+	margin-right:10px;
+	margin-top:14px;
+	float:left;
+}
+#WAPPER .TitleCountry{
+	margin-right:15px;
+	margin-top:13px;
+	line-height:24px;
+	font-size:21px;
+	float:left;
+}
+#WAPPER .inCountry{
+	float:left;
+}
+#WAPPER .inSpanish{
+	width:140px;
+	height:23px;
+	padding-top:14px;
+	line-height:20px;
+	font-size:12px;
+	font-weight:normal;
+	background:#EFEBE6;
+	float:left;
+}
+#WAPPER .inSpanish li{
+	display:block;
+	margin-right:5px;
+	float:left;
+}
+#WAPPER .menuSchool2{
+	width:900px;
+	height:25px;
+	line-height:25px;
+	padding-left:30px;
+	padding-bottom:8px;
+}
+#WAPPER .menuSchool2 li{
+	display:block;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:12px;
+	float:left;
+}
+#WAPPER .BoxSchoolTag{
+	display:block;
+	clear:both;
+	width:955px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:15px;
+	background:url(../images/bg_BoxSchool.gif) repeat-x;
+}
+#WAPPER .BoxBig{
+	display:block;
+	clear:both;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	border-left:#CCCCCC 1px solid;
+	border-right:#CCCCCC 1px solid;
+}
+#WAPPER .BoxSchool{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0;
+}
+#WAPPER .BoxSchool .Choice{
+	display:block;
+	width:25px;
+	background-image:url(../images/icon_arror.gif);
+	background-position:left 10px;
+	background-repeat:no-repeat;
+	padding-left:20px;
+	color:#666666;
+}
+#WAPPER .BoxSchool .Logo{
+	position:absolute;
+	width:175px;
+	background-image:url(../images/bg_schoolBar.gif);
+	background-position:10px left;
+	background-repeat:repeat-x;
+	margin-bottom:5px;
+	left: 720px;
+}
+#WAPPER .BoxSchool .SchoolNameIT, #WAPPER .BoxSchool .SchoolNameES{
+	width:855px;
+	height:55px;
+	background-image:url(../images/icon_italy.gif);
+	background-position:15px 18px;
+	background-repeat:no-repeat;
+	padding-left:45px;
+	line-height:55px;
+	font-size:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+	float:left;
+}
+#WAPPER .BoxSchool .SchoolNameIT{
+	background-image:url(../images/icon_italy.gif);
+}
+#WAPPER .BoxSchool .SchoolNameIT a{
+	line-height:55px;
+	font-size:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+}
+#WAPPER .BoxSchool .SchoolNameIT a:hover{
+	text-decoration:underline;
+}
+#WAPPER .BoxSchool .SchoolNameES{
+	background-image:url(../images/icon_spain.gif);
+}
+#WAPPER .BoxSchool .SchoolIntro{
+	width:650px;
+}
+#WAPPER .BoxSchool p{
+	width:370px;
+	padding:5px 15px 10px 15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	float:left;
+}
+#WAPPER .BoxSchool .Box03{
+	width:375px;
+	margin:0 25px 5px 25px;
+	float:left;
+}
+#WAPPER .BoxSchool .Box03 .titleRed, #WAPPER .BoxSchool .Box03 .titleOrange, #WAPPER .BoxSchool .Box03 .titleYellow, #WAPPER .BoxSchool .Box03 .titleGreen,  #WAPPER .BoxSchool .Box03 .titleBlue,  #WAPPER .BoxSchool .Box03 .titleDarkblue,  #WAPPER .BoxSchool .Box03 .titlePurple{
+	width:350px;
+	line-height:25px;
+	padding-left:25px;
+	font-size:12px;
+	color:#FF5300;
+	background-color:#F0F0F0;
+	border-bottom:solid 3px;
+}
+#WAPPER .BoxSchool .Box03 .titleRed{
+	border-bottom-color:#D4145A;
+}
+#WAPPER .BoxSchool .Box03 .titleOrange{
+	border-bottom-color:#F7931E;
+}
+#WAPPER .BoxSchool .Box03 .titleYellow{
+	border-bottom-color:#F9C623;
+}
+#WAPPER .BoxSchool .Box03 .titleGreen{
+	border-bottom-color:#8CC63F;
+}
+#WAPPER .BoxSchool .Box03 .titleBlue{
+	border-bottom-color:#0071BC;
+}
+#WAPPER .BoxSchool .Box03 .titleDarkblue{
+	border-bottom-color:#2E3192;
+}
+#WAPPER .BoxSchool .Box03 .titlePurple{
+	border-bottom-color:#93278F;
+}
+#WAPPER .BoxSchool .Box04{
+	width:470px;
+	padding:5px;
+	background-color:#FFFFFF;
+	padding-bottom:5px;
+}
+#WAPPER .BoxSchool .Box04 li{
+	display:block;
+	width:140px;
+	height:20px;
+	line-height:20px;
+	margin:0 5px;
+	padding-left:5px;
+	font-size:12px;
+	color:#333333;
+	float:left;
+}
+#WAPPER .BoxSchool .Box04 .CTitle{
+	display:block;
+	width:450px;
+	height:35px;
+	text-align:right;
+}
+/*類別頁*/
+#WAPPER .studyCountry2{
+	width:905px;
+	background:#EFEBE6;
+	padding:0 12px 0 38px;
+	float:left;
+}
+#WAPPER #BannerClass{
+	position:absolute;
+	width:350px;
+	height:150px;
+	left: 590px;
+	top: 54px;
+}
+#WAPPER .ClassDesign{
+	position:absolute;
+	width:350px;
+	height:150px;
+	left:590px;
+	top:54px;
+}
+#WAPPER .ClassIntro{
+	position:absolute;
+	width:625px;
+	height:175px;
+	left: 30px;
+	top: 250px;
+}
+#WAPPER .ClassIntro p{
+	padding:15px 25px 15px 15px;
+	line-height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+}
+#WAPPER .ClassSchool{
+	margin:0 auto;
+	width:878px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FF5300;
+	padding:0 38px;
+	background:url(../images/bg_BoxSchool.gif) top repeat-x;
+	line-height:24px;
+}
+#WAPPER .ClassSchool .school{
+	display:block;
+	line-height:24px;
+	float:left;
+	background-position:left center;
+	background-repeat:no-repeat;
+	margin-right:15px;
+}
+#WAPPER .ClassSchool .schoolT{
+	display:block;
+	width:60px;
+	line-height:24px;
+	float:left;
+	background-position:left center;
+	background-repeat:no-repeat;
+	margin-right:10px;
+}
+#WAPPER .titleClass{
+	padding-top:12px;
+	font-size:21px;
+	font-weight:bold;
+	color:#666666;
+	margin-right:15px;
+	float:left;
+}
+#WAPPER .titleClass2{
+	margin-top:10px;
+}
+#WAPPER .ClassCountry{
+	display:block;
+	width:892px;
+	height:35px;
+	line-height:35px;
+	margin-left:27px;
+	margin-top:25px;
+	padding-top:10px;
+	padding-left:10px;
+	font-size:18px;
+	border-bottom:solid #666666 2px;
+	color:#FFFFFF;
+	background-color:#999999;
+}
+#WAPPER .ClassCountry .CountryText{
+	display:block;
+	margin-right:15px;
+	float:left;
+	font-size:24px;
+	font-weight:bold;
+	line-height:40px;
+}
+#WAPPER .ClassCountry .CountryMark{
+	display:block;
+	margin-right:15px;
+	margin-top:15px;
+	float:left;
+}
+#WAPPER .BoxSchool .SchoolClassIntro{
+	width:420px;
+	padding:0 25px 10px 0;
+	margin-left:435px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	line-height:18px;
+}
+#WAPPER .BoxSchool .MoreSchoolInfo{
+	display:block;
+	width:90px;
+	height:21px;
+	margin-left:435px;
+	margin-bottom:8px;
+	line-height:21px;
+	padding-left:13px;
+	background-image:url(../images/btnbar_103x21.gif);
+}
+#WAPPER .BoxSchool .MoreClass, #WAPPER .BoxSchool .MoreClass2, #WAPPER .BoxSchool .MoreClass3{
+	display:block;
+	height:21px;
+	line-height:21px;
+	margin-left:10px;
+	margin-right:15px;
+	font-size:12px;
+}
+#WAPPER .BoxSchool .MoreClass{
+	width:150px;
+	float:left;
+}
+#WAPPER .BoxSchool .MoreClass2{
+	width:240px;
+	float:left;
+}
+#WAPPER .BoxSchool .MoreClass3{
+	width:120px;
+	float:left;
+}
+#WAPPER .BoxSchool .MoreClass4, #WAPPER .BoxSchool .MoreClass5{
+	display:block;
+	height:21px;
+	line-height:21px;
+	margin-left:435px;
+	margin-right:15px;
+	font-size:12px;
+	float:left;
+}
+#WAPPER .BoxSchool .MoreClass4{
+	width:120px;
+}
+#WAPPER .BoxSchool .MoreClass5{
+	width:150px;
+}
+#WAPPER .toSchoolInfo{
+	display:block;
+	font:Arial, Helvetica, sans-serif, "細明體";
+	font-size:12px;
+	padding-left:45px;
+	line-height:25px;
+}
+#WAPPER .HeadBox{
+	display:block;
+	/*background:url(../images/shadow.gif) 793px 25px repeat-y;*/
+	padding:0 8px;
+}
+#WAPPER .HeadBox .HeadImage{
+	display:block;
+	width:780px;
+	padding:20px 0 28px 5px;
+	float:left;
+	border:#BCBCBC solid 1px;
+}
+#WAPPER .HeadBox .HeadImage .HeadPhoto{
+	display:block;
+	width:505px;
+	height:380px;
+	float:left;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo{
+	display:block;
+	position:absolute;
+	width:250px;
+	padding:0 10px;
+	left: 519px;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicCountry{
+	display:block;
+	padding:15px 0 3px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#333333;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicSchool{
+	display:block;
+	line-height:15px;
+	padding:3px 5px;
+	font-size:12px;
+	color:#333333;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicDesign{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#D43F76;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicDesign{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#D43F76;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicArt{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#F99412;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicArt{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#F99412;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicFashion{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#FCC61C;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicFashion{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FCC61C;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicStyling{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#91C441;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicStyling{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#91C441;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicManagement{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#0A7AC2;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicManagement{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#0A7AC2;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicHospitality{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#322F80;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicHospitality{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#322F80;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicLanguage{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#AC55A6;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicLanguage{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#AC55A6;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicItaly{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#FF5300;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicItaly{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FF5300;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .ChineseTopicSpain{
+	display:block;
+	font-size:24px;
+	font-weight:bold;
+	color:#808080;
+	padding:3px 0;
+}
+#WAPPER .HeadBox .HeadImage .HeadInfo .TopicSpain{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#808080;
+	padding:3px 0;
+}
+/*-----------------------------------------------------------------------------右邊的按鈕(課程類別分)--*/
+#WAPPER .HeadBox .ClassList{
+	display:block;
+	float:left;
+	padding-top:20px;
+	width:150px;
+	height:410px;
+	background:url(../images/shadow.gif) left repeat-y;
+}
+#WAPPER .HeadBox .ClassList .BtnDesign{
+	display:block;
+	background:url(../images/shadow_design.gif) left no-repeat #EFB5CE;
+	width:135px;
+	height:45px;
+	color:#D43F76;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:5px 0 0 15px;
+}
+#WAPPER .HeadBox .ClassList .BtnArt{
+	display:block;
+	background:url(../images/shadow_art.gif) left no-repeat #FFDEBD;
+	width:135px;
+	height:45px;
+	color:#F99412;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:5px 0 0 15px;
+}
+#WAPPER .HeadBox .ClassList .BtnFashion{
+	display:block;
+	background:url(../images/shadow_fashion.gif) left no-repeat #FFF7BD;
+	width:135px;
+	height:45px;
+	color:#FCC61C;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:5px 0 0 15px;
+}
+#WAPPER .HeadBox .ClassList .BtnStyling{
+	display:block;
+	background:url(../images/shadow_styling.gif) left no-repeat #DEEFC5;
+	width:135px;
+	height:45px;
+	color:#91C441;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:5px 0 0 15px;
+}
+#WAPPER .HeadBox .ClassList .BtnManagement{
+	display:block;
+	background:url(../images/shadow_management.gif) left no-repeat #B4D6EF;
+	width:135px;
+	height:45px;
+	color:#0A7AC2;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:5px 0 0 15px;
+}
+#WAPPER .HeadBox .ClassList .BtnHospitality{
+	display:block;
+	background:url(../images/shadow_hospitality.gif) left no-repeat #BEC5DF;
+	width:135px;
+	height:45px;
+	color:#322F80;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:5px 0 0 15px;
+}
+#WAPPER .HeadBox .ClassList .BtnLanguage{
+	display:block;
+	background:url(../images/shadow_language.gif) left no-repeat #DFBDDE;
+	width:135px;
+	height:45px;
+	color:#AC55A6;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	padding:5px 0 0 15px;
+}
+/*-----------------------------------------------------------------------------右邊的按鈕(國家/目的類分)--*/
+#WAPPER .HeadBox .ClassList .BtnItaly{
+	display:block;
+	background:url(../images/shadow_italy.gif)left no-repeat #FF5300;
+	width:135px;
+	height:45px;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+	padding:5px 0 0 15px;
+}
+#WAPPER .HeadBox .ClassList .BtnSpanish{
+	display:block;
+	background:url(../images/shadow_span.gif) left no-repeat #808080;
+	width:135px;
+	height:45px;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight:bold;
+	padding:5px 0 0 15px;
+}

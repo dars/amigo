@@ -1,0 +1,1933 @@
+@charset "utf-8";
+/* CSS Document */
+
+a.BtnMenu{
+	font-size:12px;
+	color:#2C7E2E;
+	line-height:18px;
+	text-decoration:none;
+	font-weight: bold;
+}
+a:hover.BtnMenu{
+	text-decoration:underline;
+}
+a.Short{
+	font-size:12px;
+	color:#666666;
+	text-decoration:none;
+	padding-left:35px;
+}
+a.ShortRed{
+	font-size:12px;
+	color:#FF0000;
+	text-decoration:none;
+	padding-left:35px;
+}
+a:hover.Short{
+	color:#333333;
+	text-decoration:none;
+}
+a:hover.ShortRed{
+	text-decoration:none;
+}
+a.Tbtn{
+	padding:2px 5px;
+	margin-right:10px;
+	background-color:#EFEFEF;
+	font-size:12px;
+	color:#666666;
+	text-decoration:none;
+}
+a:hover.Tbtn{
+	text-decoration:none;
+	color:#EF0000;
+}
+a.List{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#333333;
+	font-weight:normal;
+	text-decoration:none;
+}
+a:hover.List{
+	text-decoration:underline;
+}
+
+#WAPPER #BannerApicius{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_apicius.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerFua{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_fua.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerIED{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_ied.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerOrafe{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_orafe.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerPolimoda{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_polimoda.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerUptodate{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_uptodate.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+/*----------------------------------------------------------------------------------語言學校banner*/
+#WAPPER #BannerDavinci{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_davinci.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerIstituttoVenezia{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_istituttoVenezia.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerDilit{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_dilit.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+#WAPPER #BannerEnforex{
+	width:955px;
+	height:143px;
+	margin-top:0;
+	background-image:url(../images/banner_enforex.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	border-bottom: 3px solid #FFFFFF;
+}
+/*----------------------------------------------------------------------------------語言學校banner--end*/
+#WAPPER #BannerIED .SubMenu00{
+	position:absolute;
+	left: 586px;
+	top: 84px;
+} 
+#WAPPER .Tbtns{
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	color:#FF5300;
+	line-height:18px;
+	padding-bottom:10px;
+}
+#WAPPER .SelectedTitle{
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	color:#FF5300;
+	line-height:18px;
+}
+#WAPPER .BoxRight .SubMenu01{
+	display:block;
+}  
+#WAPPER .BoxRight .BtnTitle{
+	font-size:12px;
+	font-weight:bold;
+	color:#FF3300;
+	line-height:20px;
+	text-decoration:none;
+}
+#WAPPER .BoxRight .Selected{
+	display:block;
+	font-size:12px;
+	color:#FF5300;
+	line-height:18px;
+}
+#WAPPER .SchoolName{
+	width:885px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	padding-left:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:21px;
+	border-bottom:3px solid #666666;
+}
+#WAPPER .BoxMain{
+	width:635px;
+	margin-left:25px;
+	padding:0 20px 0 10px;
+	float:left;
+}
+#WAPPER .Photo{
+	width:160px;
+	margin-right:20px;
+	padding-top:15px;
+	float:left;
+}
+#WAPPER .BoxContent{
+	width:450px;
+	padding:15px 0;
+	float:left;
+	line-height: 22px;
+	font-size:12px;
+}
+#WAPPER .BoxMain .BoxContent p{
+	display:block;
+	width:450px;
+	padding:5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+#WAPPER .BoxMain .BoxContent table p{
+	width:100%;
+}
+#WAPPER .TitleContent{
+	width:450px;
+	font-size:15px;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+#WAPPER .BoxRight{
+	width:200px;
+	padding:15px 10px;
+	float:left;
+	border-left:1px dashed #999999;
+	border-bottom:1px dashed #999999;
+}
+#WAPPER .BoxRight .EventList{
+	display:block;
+	list-style-type:none;
+	width:200px;
+	line-height:25px;
+	font-size:15px;
+	font-weight:normal;
+}
+#WAPPER .BoxRight .PhotoNews{
+	width:125px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#WAPPER .BoxRight .PhotoNewsTitle{
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px;
+}
+#WAPPER .BoxRight p{
+	width:175px;
+	padding:10px 10px;
+	font-size:12px;
+	line-height:18px;
+}
+#WAPPER .BoxCourseIntro{
+	width:630px;
+	padding-top:25px;
+	padding-bottom:20px;
+}
+#WAPPER .BoxCourseIntro p{
+	width:600px;
+	padding:5px 5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+}
+#WAPPER .tab00Design{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	background-color:#D4145A;
+}
+#WAPPER .tab00Orange{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	background-color:#F7931E;
+}
+#WAPPER .tab00Yellow{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	background-color:#F9C623;
+}
+#WAPPER .tab00Green{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	background-color:#8CC63F;
+}
+#WAPPER .tab00Blue{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	background-color:#0071BC;
+}
+#WAPPER .tab00Darkblue{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	background-color:#2E3192;
+}
+#WAPPER .tab00Purple{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	background-color:#93278F;
+}
+#WAPPER .tab01{
+	width:630px;
+	border:1px solid #999999;
+	border-bottom:none;
+	border-top:none;
+	background-color:#FFFFFF;
+}
+#WAPPER .tab02{
+	width:630px;
+	padding-top:10px;
+}
+#WAPPER .EventFoto{
+	width:220px;
+	margin-right:15px;
+	padding-top:30px;
+	padding-bottom:15px;
+	text-align:center;
+	float:left;
+}
+#WAPPER .EventContent{
+	display:block;
+	width:380px;
+	padding:25px 15px 25px 5px;
+	float:left;
+}
+#WAPPER .EventTitle{
+	width:380px;
+	line-height:25px;
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#FF5300;
+}
+#WAPPER .EventContent p{
+	display:block;
+	font-size:12px;
+	line-height:18px;
+	width:380px;
+	padding:5px 0;
+}
+#WAPPER .EventContent .SpanMark{
+	font-weight:bold;
+}
+/*FUA*/
+#WAPPER .courseNameFUA00{
+	display:block;
+	width:360px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseNameFUA01{
+	display:block;
+	width:350px;
+	height:35px;
+	padding:15px 10px 0 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseNameFUA02{
+	display:block;
+	width:350px;
+	height:55px;
+	padding:15px 10px 0 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassFUA00{
+	display:block;
+	width:249px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseClassFUA01{
+	display:block;
+	width:239px;
+	height:20px;
+	line-height:20px;
+	padding:15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassFUA02{
+	display:block;
+	width:239px;
+	height:40px;
+	line-height:20px;
+	padding:15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+/*IED Italy*/
+#WAPPER .courseNameIED00{
+	display:block;
+	width:260px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseNameIED01{
+}
+#WAPPER .courseNameIED02{
+	display:block;
+	width:250px;
+	height:35px;
+	padding:15px 10px 0 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseNameIED03{
+	display:block;
+	width:250px;
+	height:50px;
+	padding:25px 10px 0 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassIED00{
+	display:block;
+	width:109px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseClassIED01{
+	display:block;
+	width:99px;
+	height:15px;
+	line-height:15px;
+	padding:5px 10px 5px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+}
+#WAPPER .courseClassIED02a{
+	display:block;
+	width:99px;
+	height:40px;
+	line-height:20px;
+	padding:5px 10px 5px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassIED02b{
+	display:block;
+	width:99px;
+	height:30px;
+	line-height:21px;
+	padding:15px 10px 5px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassIED03a{
+	display:block;
+	width:99px;
+	height:65px;
+	line-height:21px;
+	padding:5px 10px 5px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassIED03b{
+	display:block;
+	width:99px;
+	height:45px;
+	line-height:21px;
+	padding:25px 10px 5px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+/*IED Spain*/
+#WAPPER .courseNameIEDSpain00{
+	display:block;
+	width:310px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseClassIEDSpain00{
+	display:block;
+	width:144px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .classIntro{
+	display:block;
+	width:610px;
+	font-size:12px;
+	line-height:18px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999;
+	padding:8px 10px 10px 10px;
+}
+#WAPPER .courseNameIEDSpain{
+	display:block;
+	width:300px;
+	height:35px;
+	padding:15px 10px 0 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassIEDSpain{
+	display:block;
+	width:134px;
+	height:30px;
+	line-height:20px;
+	padding:15px 10px 5px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+/*UPTODATE*/
+#WAPPER .courseUPTODATE{
+	display:block;
+	width:620px;
+	line-height:30px;
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	border-bottom:1px solid #999999;
+}
+#WAPPER .courseClassUPTODATE00{
+	display:block;
+	width:338px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseClassUPTODATE01{
+	display:block;
+	width:338px;
+	height:75px;
+	line-height:18px;
+	padding:15px 5px 15px 5px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassUPTODATE02{
+	display:block;
+	width:338px;
+	height:55px;
+	line-height:18px;
+	padding:15px 5px 15px 5px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassUPTODATE03{
+	display:block;
+	width:338px;
+	height:95px;
+	line-height:18px;
+	padding:15px 5px 15px 5px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassUPTODATE01Mark{
+	font-weight:bold;
+}
+#WAPPER .courseNameUPTODATE00{
+	display:block;
+	width:270px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseNameUPTODATE01{
+	display:block;
+	width:260px;
+	height:75px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseNameUPTODATE02{
+	display:block;
+	width:260px;
+	height:55px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseNameUPTODATE03{
+	display:block;
+	width:260px;
+	height:95px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+/*POLIMODA*/
+#WAPPER .courseNamePolimoda00{
+	display:block;
+	width:270px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseNamePolimoda01{
+	display:block;
+	width:260px;
+	height:40px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseNamePolimoda02{
+	display:block;
+	width:260px;
+	height:55px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassPolimoda00{
+	display:block;
+	width:338px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseClassPolimoda01{
+	display:block;
+	width:338px;
+	height:40px;
+	line-height:18px;
+	padding:15px 5px 15px 5px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassPolimoda02{
+	display:block;
+	width:338px;
+	height:55px;
+	line-height:18px;
+	padding:15px 5px 15px 5px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+/*ORAFE*/
+#WAPPER .courseORAFE{
+	display:block;
+	width:620px;
+	line-height:30px;
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	border-bottom:1px solid #999999;
+}
+#WAPPER .courseORAFEMark{
+	display:block;
+	width:620px;
+	line-height:30px;
+	padding-bottom:15px;
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FF0000;
+}
+#WAPPER .courseORAFEMark2{
+	color:#FF0000;
+	font-weight:bold;
+}
+#WAPPER .courseNameORAFE00{
+	display:block;
+	width:90px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseNameORAFE01{
+	display:block;
+	width:80px;
+	height:40px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseNameORAFE02{
+	display:block;
+	width:80px;
+	height:60px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassORAFE00{
+	display:block;
+	width:215px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseClassORAFE01{
+	display:block;
+	width:215px;
+	height:40px;
+	line-height:18px;
+	padding:15px 5px 15px 5px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassORAFE02{
+	display:block;
+	width:215px;
+	height:60px;
+	line-height:18px;
+	padding:15px 5px 15px 5px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassbORAFE00{
+	display:block;
+	width:90px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseClassbORAFE01{
+	display:block;
+	width:80px;
+	height:40px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseClassbORAFE02{
+	display:block;
+	width:80px;
+	height:60px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+/*APICIUS*/
+#WAPPER .courseNameApicius00{
+	display:block;
+	width:120px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseNameApicius01{
+	display:block;
+	width:110px;
+	height:90px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseNameApicius02{
+	display:block;
+	width:110px;
+	height:135px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseCLassApicius00{
+	display:block;
+	width:240px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseCLassApicius01A{
+	display:block;
+	width:104px;
+	height:90px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseCLassApicius01B{
+	display:block;
+	width:104px;
+	height:90px;
+	line-height:18px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseCLassApicius02{
+	display:block;
+	width:114px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .courseCLassApicius02A{
+	display:block;
+	width:104px;
+	height:135px;
+	line-height:15px;
+	padding:15px 10px 15px 10px;
+	font-size:12px;
+	color:#666666;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .courseApicius{
+	display:block;
+	width:620px;
+	line-height:30px;
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#666666;
+	border-bottom:1px solid #999999;
+}
+#WAPPER .courseApiciusYear{
+	display:block;
+	width:625px;
+	background-color:#999999;
+	line-height:30px;
+	padding-top:15px;
+	padding-left:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+/*語言課程---------------------------------------------------------------------Davinci*/
+#WAPPER .LanguageDavinciA0{
+	display:block;
+	width:156px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDavinciB0{
+	display:block;
+	width:143px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDavinciC0{
+	display:block;
+	width:120px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDavinciD0{
+	display:block;
+	width:90px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDavinciE0{
+	display:block;
+	width:126px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDavinciA1a{
+	display:block;
+	width:156px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciA1b{
+	display:block;
+	width:156px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciB1{
+	display:block;
+	width:143px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciB1a{
+	display:block;
+	width:451px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciC1{
+	display:block;
+	width:120px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciD1{
+	display:block;
+	width:90px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciE1a{
+	display:block;
+	width:126px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciE1b{
+	display:block;
+	width:126px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciF1{
+	display:block;
+	width:222px;
+	height:30px;
+	line-height:15px;
+	padding:10px 5px 10px 10px;
+	font-size:12px;
+	font-weight:bold;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDavinciG1{
+	display:block;
+	width:376px;
+	height:35px;
+	line-height:35px;
+	padding:10px 5px 5px 10px;
+	font-size:12px;
+	font-weight:bold;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	color:#999;
+	float:left;
+}
+/*語言課程---------------------------------------------------------------------Dilit*/
+#WAPPER .LanguageDilitA0{
+	display:block;
+	width:84px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitB0{
+	display:block;
+	width:95px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitC0{
+	display:block;
+	width:55px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitD0{
+	display:block;
+	width:115px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitE0{
+	display:block;
+	width:189px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitF0{
+	display:block;
+	width:75px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitA1{
+	display:block;
+	width:84px;
+	height:18px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDilitA3a{
+	display:block;
+	width:84px;
+	height:60px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageDilitA3b{
+	display:block;
+	width:84px;
+	height:60px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitB1{
+	display:block;
+	width:95px;
+	height:18px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitB3a{
+	display:block;
+	width:95px;
+	height:45px;
+	line-height:15px;
+	padding:20px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitB3b{
+	display:block;
+	width:95px;
+	height:55px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitC1{
+	display:block;
+	width:55px;
+	height:18px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitC3{
+	display:block;
+	width:55px;
+	height:45px;
+	line-height:15px;
+	padding:20px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitD1{
+	display:block;
+	width:115px;
+	height:18px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .LanguageDilitD3{
+	display:block;
+	width:115px;
+	height:60px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	float:left;
+}
+#WAPPER .LanguageDilitE1{
+	display:block;
+	width:189px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitE1a{
+	display:block;
+	width:189px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitE1b{
+	display:block;
+	width:189px;
+	height:15px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitF1{
+	display:block;
+	width:75px;
+	height:15px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageDilitG1{
+	display:block;
+	width:161px;
+	height:15px;
+	line-height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+/*語言課程---------------------------------------------------------------------Venezia*/
+#WAPPER .LanguageVeneziaA0{
+	display:block;
+	width:116px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageVeneziaB0{
+	display:block;
+	width:39px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageVeneziaC0{
+	display:block;
+	width:83px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageVeneziaD0{
+	display:block;
+	width:73px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageVeneziaA1{
+	display:block;
+	width:116px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageVeneziaB1{
+	display:block;
+	width:39px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageVeneziaC1{
+	display:block;
+	width:83px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageVeneziaD1{
+	display:block;
+	width:73px;
+	height:15px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+/*語言課程---------------------------------------------------------------------Enforex*/
+#WAPPER .LanguageEnforexA0{
+	display:block;
+	width:34px;
+	line-height:15px;
+	height:30px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexB0{
+	display:block;
+	width:135px;
+	line-height:15px;
+	height:30px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexC0{
+	display:block;
+	width:33px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexD0{
+	display:block;
+	width:70px;
+	line-height:15px;
+	height:15px;
+	padding:5px 1px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexE0{
+	display:block;
+	width:120px;
+	line-height:15px;
+	height:15px;
+	padding:5px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexF0{
+	display:block;
+	width:246px;
+	line-height:15px;
+	height:15px;
+	padding:5px 1px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexG0{
+	display:block;
+	width:495px;
+	line-height:15px;
+	height:15px;
+	padding:5px 1px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexC1{
+	display:block;
+	width:33px;
+	height:10px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageEnforexD1{
+	display:block;
+	width:70px;
+	height:10px;
+	line-height:15px;
+	padding:10px 1px 5px 1px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexC2{
+	display:block;
+	width:33px;
+	height:25px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageEnforexD2{
+	display:block;
+	width:70px;
+	height:25px;
+	line-height:15px;
+	padding:10px 1px 5px 1px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexE1{
+	display:block;
+	width:120px;
+	height:10px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageEnforexE2{
+	display:block;
+	width:120px;
+	height:30px;
+	line-height:15px;
+	padding:10px 5px 5px 5px;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:1px solid #999999;
+	color:#999;
+	float:left;
+}
+#WAPPER .LanguageEnforexF1{
+	display:block;
+	width:246px;
+	height:10px;
+	line-height:15px;
+	padding:10px 1px 5px 1px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .LanguageEnforexF2{
+	display:block;
+	width:246px;
+	height:30px;
+	line-height:15px;
+	padding:10px 1px 5px 1px;
+	font-size:12px;
+	font-weight:bold;
+	color:#999;
+	border-bottom:1px solid #999999;
+	border-left:1px solid #999999;
+	text-align:center;
+	float:left;
+}
+#WAPPER .roomMark{
+	display:block;
+	padding:10px 0 5px 10px;
+	font-weight:normal;
+	font-size:12px;
+	color:#666666;
+}
+#WAPPER .roomMarkcontent{
+	display:block;
+	padding-left:10px;
+	line-height:25px;
+	font-weight:normal;
+	font-size:12px;
+	color:#666666;
+}
+#WAPPER .roomMarkcontentBlank{
+	display:block;
+	border-bottom:1px solid #999999;
+	height:15px;
+}
+#WAPPER .reMark{
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 0;
+}
+/*----------------------------------------------------------------------------------------------------*/
+#WAPPER .Price{
+	width:240px;
+	line-height:25px;
+	padding-left:30px;
+	font-size:12px;
+	float:left;
+}
+#WAPPER .PriceDetail{
+	clear:both;
+	width:175px;
+	line-height:24px;
+	background-image:url(../images/bar_175x24.gif);
+	background-repeat:no-repeat;
+	background-position:left 10px;
+	font-size:12px;
+	color:#FF5300;
+	text-align:center;
+	margin-left:30px;
+	padding-top:10px;
+}
+#WAPPER .Language{
+	width:135px;
+	line-height:25px;
+	padding-left:15px;
+	font-size:12px;
+	float:left;
+}
+#WAPPER .Date{
+	width:195px;
+	line-height:25px;
+	padding-left:15px;
+	font-size:12px;
+	float:left;
+}
+.course_links{
+	padding-left:30px;
+}
+.course_links li{
+	float:left;
+	margin-right:15px;
+	margin-top:5px;
+}
+.course_links li a{
+	display:block;
+	color:#A56613;
+}
+.course_links li a:hover{
+	color:#FF5300;
+	font-weight: bold;
+}
+.course_fee{
+	width:100%;
+}
+.course_fee th,.course_fee td{
+	border:1px #CCC solid;
+	padding-left:5px;
+	padding-right:5px;
+	color:#333;
+}
+.course_fee th{
+	background:#FFA073;
+	text-align:center;
+	color:#A63600;
+}

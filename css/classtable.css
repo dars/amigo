@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.classtable {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666666;
+	padding-left:10px;
+	border:#999999 solid 1px;
+}
+
+.ttl {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	padding-top:5px;
+	padding-bottom:5px;
+	BACKGROUND:#D4145A;
+	text-align:center;
+}

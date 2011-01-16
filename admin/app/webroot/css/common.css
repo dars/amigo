@@ -1,0 +1,119 @@
+body{font-size:100%;}
+h1{font-size:1.4em;}
+h2{font-size:1.3em;}
+h3{font-size:1em;}
+h4{font-size:0.8em;}
+input,select,option,textarea{
+	font:12px verdana;
+	color:#333;
+}
+.left{text-align:left;}
+.right{text-align:right;}
+form{
+	width:700px;
+}
+form div{
+	margin-bottom:10px;
+	padding:0;
+}
+table td{font-size:0.8em;}
+table th a{border-bottom:none;font-weight:normal;font-size:0.9em;}
+table tr:hover td{background:#E4E5FF;color:#000;}
+div.paging{background:transparent;font-size:0.7em;text-align:right;}
+div.actions{font-size:0.8em;}
+dd,dt{font-size:0.8em;}
+dt{
+	background:#AA9;
+	border:1px solid;
+	font-weight:normal;
+	margin-top:-1px;
+}
+dd{
+	margin-left:auto;
+	margin-top:-1px;
+	background:#EEE;
+	border:1px solid;
+	border-top:none;
+}
+dd table td{
+	text-align:left;
+	font-size:0.8em;
+}
+fieldset legend{font-size:0.9em}
+label{font-size:0.8em;font-weight:normal;}
+.list-nav{
+	clear:both;
+	font:12px verdana;
+	color:#FFF;
+}
+/* 主選單CSS start */
+#main-nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	float:left;
+	width:100%;
+	background:#81765F;
+}
+#main-nav ul li{
+	style-type:none;
+	margin:0;
+	float:left;
+	border-right:1px solid #999;
+	font-size:0.8em;
+}
+#main-nav ul li a{
+	padding:3px 15px;
+	display:block;
+	color:#CCC;
+	border:none;
+	text-decoration:none;
+}
+#main-nav ul li ul{
+	margin:0;
+	padding:3px 0;
+	list-style:none;
+	float:left;
+	position:absolute;
+	left:0;
+	color:#fff;
+	background:#AB9C70;
+	display:none;
+}
+#main-nav ul li ul li{
+	border-right:1px solid #fff;
+}
+#main-nav ul li ul li a{
+	display:inline;
+	color:#CCC;
+}
+#main-nav ul li ul li a:hover {
+	color:#FFF;
+}
+/* 主選單CSS end */
+.filter_div form{
+	width:100%;
+}
+.filter_div form div{
+	clear:none;
+	float:left;
+	margin-right:10px;
+}
+.filter_div form div label{
+	float:left;
+}
+.filter_div form div.submit{
+	margin-top:0;
+	margin-left:0;
+	text-align:left;
+	width:50px;
+}
+a.del_pix{
+	color:#F00;
+	font-size:0.8em;
+	margin-left:5px;
+}
+#fancybox-close{
+	border-bottom:none;
+}
